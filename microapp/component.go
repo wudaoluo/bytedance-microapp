@@ -1,7 +1,7 @@
 package microapp
 
 import (
-	"github.com/cute-angelia/bytedance-microapp/microapp/apis"
+	"github.com/wudaoluo/bytedance-microapp/microapp/apis"
 )
 
 type Component struct {

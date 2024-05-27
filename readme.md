@@ -5,10 +5,10 @@
 ### 快速开始 & demo
 
 ```shell
-go get github.com/cute-angelia/bytedance-microapp
+go get github.com/wudaoluo/bytedance-microapp
 
 import (
-	"github.com/cute-angelia/bytedance-microapp/microapp"
+	"github.com/wudaoluo/bytedance-microapp/microapp"
 )
 ```
 

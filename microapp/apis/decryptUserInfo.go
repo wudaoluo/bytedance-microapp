@@ -19,7 +19,7 @@ func DecryptUserInfo(encryptedData, sessionKey, iv string) DecryptUserInfoResp {
 	return resp
 }
 
-//获取手机号 和获取用户基本信息 是2个不同的功能，都放在一个结构体了
+// 获取手机号 和获取用户基本信息 是2个不同的功能，都放在一个结构体了
 type DecryptUserInfoResp struct {
 	NickName        string `json:"nickName"`
 	AvatarUrl       string `json:"avatarUrl"`
@@ -34,5 +34,5 @@ type DecryptUserInfoResp struct {
 	Watermark       struct {
 		Appid     string `json:"appid"`
 		Timestamp int    `json:"timestamp"`
-	}                      //敏感数据水印
+	} //敏感数据水印
 }

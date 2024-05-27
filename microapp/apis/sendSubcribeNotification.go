@@ -1,8 +1,8 @@
 package apis
 
 import (
-	"github.com/cute-angelia/bytedance-microapp/microapp/utils"
 	"github.com/guonaihong/gout"
+	"github.com/wudaoluo/bytedance-microapp/microapp/utils"
 )
 
 // SendSubscribeNotification 发送订阅消息

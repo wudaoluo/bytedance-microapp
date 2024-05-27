@@ -1,8 +1,8 @@
 package apis
 
 import (
-	"github.com/cute-angelia/bytedance-microapp/microapp/utils"
 	"github.com/guonaihong/gout"
+	"github.com/wudaoluo/bytedance-microapp/microapp/utils"
 )
 
 // Code2Session 获取 AccessToken
